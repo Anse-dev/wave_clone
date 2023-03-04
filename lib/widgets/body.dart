@@ -28,7 +28,7 @@ class BodyWidget extends StatelessWidget {
                       )
                     ],
                   ))),
-        )
+        ),
       ],
     );
   }

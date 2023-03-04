@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:qr_flutter/qr_flutter.dart';
 import '../widgets/widgets.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -12,10 +11,11 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
         extendBodyBehindAppBar: false,
         backgroundColor: Color.fromARGB(255, 93, 3, 195),
-        appBar: PreferredSize(
+        /* appBar: PreferredSize(
           preferredSize: Size(size.width, 165.0),
           child: CustomAppBar(),
-        ),
-        body: BodyWidget());
+        ), */
+        body: Text("text"));
+    //BodyWidget()
   }
 }
